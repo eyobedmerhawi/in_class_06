@@ -1,17 +1,58 @@
-# inclass06
+# In-Class Activity 06 - CustomPainter Smiley
 
-A new Flutter project.
+A Flutter application created for CSC 4360 Mobile App Development.
 
-## Getting Started
+This activity focuses on using Flutter's `CustomPainter` and Canvas API to draw and interact with custom smiley faces.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Custom smiley face drawn using `CustomPainter`
+- Face, border, eyes, and mouth drawn with Canvas
+- Mood slider that updates the face
+- Face color changes based on mood
+- Responsive drawing using the canvas size and face radius
+- Three face styles:
+  - Classic
+  - Sleepy
+  - Surprised
+- Tap the face to cycle between face styles
+- Long-press the face to randomize the mood
+- SnackBar feedback for interactions
+- Custom hat using Canvas drawing
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Flutter Concepts Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- CustomPainter
+- CustomPaint
+- Canvas
+- Paint
+- drawCircle()
+- drawArc()
+- drawRRect()
+- drawLine()
+- StatefulWidget
+- setState()
+- GestureDetector
+- Slider
+- SnackBar
+- shouldRepaint()
+
+## Running the App
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+The application should be tested on an Android emulator or physical phone.
+
+## Author
+
+Eyobed Gebregziabher
